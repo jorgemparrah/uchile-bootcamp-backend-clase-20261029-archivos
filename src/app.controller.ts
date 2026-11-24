@@ -6,15 +6,18 @@ import { CopiaArchivoDto } from './dto/copia-archivo.dto';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { CargaArchivoBinarioDto } from './dto/carga-archivo-binario.dto';
 import { MetadatosArchivo } from './metadatos-archivo.entity';
+import { Throttle } from '@nestjs/throttler';
 
 @Controller('rutas')
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
+  @Throttle({ default: { ttl: 60000, limit: 50 } })
   @Get('crear-ruta-relativa')
   crearRuta(): string {
     return this.appService.crearRuta();
   }
+
 
   @Get('crear-ruta-absoluta')
   crearRutaAbsoluta(): string {
