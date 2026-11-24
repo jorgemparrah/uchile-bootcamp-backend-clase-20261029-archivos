@@ -1,0 +1,88 @@
+{"level":30,"time":1795134893269,"pid":2799808,"hostname":"jparra-personal","context":"NestFactory","msg":"Starting Nest application..."}
+{"level":30,"time":1795134893270,"pid":2799808,"hostname":"jparra-personal","context":"InstanceLoader","msg":"ConfigHostModule dependencies initialized"}
+{"level":30,"time":1795134893270,"pid":2799808,"hostname":"jparra-personal","context":"InstanceLoader","msg":"ThrottlerModule dependencies initialized"}
+{"level":30,"time":1795134893270,"pid":2799808,"hostname":"jparra-personal","context":"InstanceLoader","msg":"ConfigModule dependencies initialized"}
+{"level":30,"time":1795134893270,"pid":2799808,"hostname":"jparra-personal","context":"InstanceLoader","msg":"ServeStaticModule dependencies initialized"}
+{"level":30,"time":1795134893270,"pid":2799808,"hostname":"jparra-personal","context":"InstanceLoader","msg":"LoggerModule dependencies initialized"}
+{"level":30,"time":1795134893270,"pid":2799808,"hostname":"jparra-personal","context":"InstanceLoader","msg":"JwtModule dependencies initialized"}
+{"level":30,"time":1795134893270,"pid":2799808,"hostname":"jparra-personal","context":"InstanceLoader","msg":"JwtModule dependencies initialized"}
+{"level":30,"time":1795134893270,"pid":2799808,"hostname":"jparra-personal","context":"InstanceLoader","msg":"AppModule dependencies initialized"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"InstanceLoader","msg":"DocumentosModule dependencies initialized"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"RoutesResolver","msg":"AppController {/rutas}:"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/crear-ruta-relativa, GET} route"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/crear-ruta-absoluta, GET} route"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/imprimir-buffer/:texto/:codIn/:codOut, GET} route"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/escribir-archivo/:codIn, POST} route"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/agregar-texto-archivo/:codIn, POST} route"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/leer-archivo/:codOut/:ruta, GET} route"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/abrir-archivo/:ruta, GET} route"}
+{"level":30,"time":1795134893271,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/copiar-archivo, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/mover-archivo, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/eliminar-archivo/:ruta, DELETE} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/recibir-archivo, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/descargar/:key, GET} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/descargarOtro/:key, GET} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/listar-archivos, GET} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RoutesResolver","msg":"SeguridadController {/seguridad}:"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/cifrar-simetrico, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/descrifrar-simetrico, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/cifrar-asimetrico, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/descrifrar-asimetrico, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/hashing, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/hashing-with-salt/:salt, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/hashing-argon2, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/verificar-hashing-argon2, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RoutesResolver","msg":"AuthController {/auth}:"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/auth/registrar, POST} route"}
+{"level":30,"time":1795134893272,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/auth/login, POST} route"}
+{"level":30,"time":1795134893273,"pid":2799808,"hostname":"jparra-personal","context":"RoutesResolver","msg":"DocumentosController {/documentos}:"}
+{"level":30,"time":1795134893273,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos, POST} route"}
+{"level":30,"time":1795134893273,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos, GET} route"}
+{"level":30,"time":1795134893273,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos/:id, GET} route"}
+{"level":30,"time":1795134893273,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos/:id, PATCH} route"}
+{"level":30,"time":1795134893273,"pid":2799808,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos/:id, DELETE} route"}
+{"level":30,"time":1795134893273,"pid":2799808,"hostname":"jparra-personal","context":"NestApplication","msg":"Nest application successfully started"}
+{"level":30,"time":1795134961397,"pid":2801541,"hostname":"jparra-personal","context":"NestFactory","msg":"Starting Nest application..."}
+{"level":30,"time":1795134961398,"pid":2801541,"hostname":"jparra-personal","context":"InstanceLoader","msg":"ConfigHostModule dependencies initialized"}
+{"level":30,"time":1795134961398,"pid":2801541,"hostname":"jparra-personal","context":"InstanceLoader","msg":"ThrottlerModule dependencies initialized"}
+{"level":30,"time":1795134961398,"pid":2801541,"hostname":"jparra-personal","context":"InstanceLoader","msg":"ConfigModule dependencies initialized"}
+{"level":30,"time":1795134961398,"pid":2801541,"hostname":"jparra-personal","context":"InstanceLoader","msg":"ServeStaticModule dependencies initialized"}
+{"level":30,"time":1795134961399,"pid":2801541,"hostname":"jparra-personal","context":"InstanceLoader","msg":"LoggerModule dependencies initialized"}
+{"level":30,"time":1795134961399,"pid":2801541,"hostname":"jparra-personal","context":"InstanceLoader","msg":"JwtModule dependencies initialized"}
+{"level":30,"time":1795134961399,"pid":2801541,"hostname":"jparra-personal","context":"InstanceLoader","msg":"JwtModule dependencies initialized"}
+{"level":30,"time":1795134961399,"pid":2801541,"hostname":"jparra-personal","context":"InstanceLoader","msg":"AppModule dependencies initialized"}
+{"level":30,"time":1795134961399,"pid":2801541,"hostname":"jparra-personal","context":"InstanceLoader","msg":"DocumentosModule dependencies initialized"}
+{"level":30,"time":1795134961399,"pid":2801541,"hostname":"jparra-personal","context":"RoutesResolver","msg":"AppController {/rutas}:"}
+{"level":30,"time":1795134961399,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/crear-ruta-relativa, GET} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/crear-ruta-absoluta, GET} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/imprimir-buffer/:texto/:codIn/:codOut, GET} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/escribir-archivo/:codIn, POST} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/agregar-texto-archivo/:codIn, POST} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/leer-archivo/:codOut/:ruta, GET} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/abrir-archivo/:ruta, GET} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/copiar-archivo, POST} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/mover-archivo, POST} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/eliminar-archivo/:ruta, DELETE} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/recibir-archivo, POST} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/descargar/:key, GET} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/descargarOtro/:key, GET} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/rutas/listar-archivos, GET} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RoutesResolver","msg":"SeguridadController {/seguridad}:"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/cifrar-simetrico, POST} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/descrifrar-simetrico, POST} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/cifrar-asimetrico, POST} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/descrifrar-asimetrico, POST} route"}
+{"level":30,"time":1795134961400,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/hashing, POST} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/hashing-with-salt/:salt, POST} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/hashing-argon2, POST} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/seguridad/verificar-hashing-argon2, POST} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RoutesResolver","msg":"AuthController {/auth}:"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/auth/registrar, POST} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/auth/login, POST} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RoutesResolver","msg":"DocumentosController {/documentos}:"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos, POST} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos, GET} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos/:id, GET} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos/:id, PATCH} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"RouterExplorer","msg":"Mapped {/documentos/:id, DELETE} route"}
+{"level":30,"time":1795134961401,"pid":2801541,"hostname":"jparra-personal","context":"NestApplication","msg":"Nest application successfully started"}
